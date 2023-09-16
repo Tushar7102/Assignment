@@ -1,0 +1,145 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main
+{
+    height: 100vh;
+    width: 100%;
+}
+.logo
+{
+    height: 70px;
+    width: 100%;
+    float: left;
+    
+}
+.logo img
+{
+    height: 70px;
+    width: 5%;   
+}
+.name
+{
+    height: 70px;
+    width: 95%;
+    text-align: center;
+    float: right;
+    background-color:#FFCC70;
+    line-height: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+.nav
+{
+    height: 50px;
+    width: 100%;
+    background-color:#FFFADD;
+    float: left;
+    position: absolute;
+    top: 9.5%;
+    
+}
+li
+{
+   float: left;
+   list-style: none;
+   line-height: 50px;
+   padding: 0px 10px 10px 260px; 
+   color: rgb(28, 28, 28);
+}
+.paragraph
+{
+    width: 80%;
+    border: 2px solid black;
+    background-color: #FFFADD;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    padding: 40px 40px 40px 40px;
+}
+.content1
+{
+   width: 100%;
+   height: 300px;
+   float: left;
+}
+.content1 img
+{
+    width: 40%;
+    height: 300px;
+    filter: grayscale(100);
+    transition: 0.8s;
+}
+.content1 img:hover
+{
+    filter: grayscale(0);
+}
+.lorem1
+{
+    width: 55%;
+    height: 300px;
+    float: right;
+    text-align: justify;
+    overflow: hidden scroll;
+}
+.lorem2
+{
+    text-align: justify;
+    margin-top: 30%;
+}
+.content2
+{
+   width: 100%;
+   height: 300px;
+   margin-top: 2%;
+}
+.content2 img
+{
+    width: 45%;
+    height: 300px;
+    filter: grayscale(100);
+    transition: 0.8s;
+}
+.content2 img:hover
+{
+    filter: grayscale(0);
+    float: right;
+}
+.lorem3
+{
+    width: 55%;
+    height: 300px;
+    text-align: justify;
+    overflow: hidden scroll;
+    float: left;
+}
+p:hover
+{
+    color: brown;
+    font-family: 'Roboto', sans-serif;
+}
+.footer
+{
+    background-color: #FFCC70;
+    position: absolute;
+    top: 145%;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+}
+table
+{
+    width: 100%;
+}
+.th
+{
+    width: 25%;
+    text-align: center; 
+}
+td
+{
+    width: 25%;
+    text-align: center;
+}
