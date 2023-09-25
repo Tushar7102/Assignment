@@ -1,0 +1,64 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.nav
+{
+    width: 100%;
+}
+h1
+{
+    text-align: center;
+    margin-right: 100px;
+}
+.main
+{
+    width: 50%;
+    margin:1% auto;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 100px;
+    gap: 20px;
+}
+.header
+{
+    background-color: brown;
+    color: white;
+    grid-column: 1/5;
+}
+.box1
+{
+    background-color: brown;
+    color: white;
+    grid-column: 1/2
+}
+.box2
+{
+    background-color: brown;
+    color: white;
+}
+.box3
+{
+    background-color: brown;
+    color: white;
+}
+.side
+{
+    background-color: brown;
+    color: white;
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+.content
+{
+    background-color: brown;
+    color: white;
+    grid-column: 1/4;
+}
+.footer
+{
+    background-color: brown;
+    color: white;
+    grid-column: 1/5;
+}
