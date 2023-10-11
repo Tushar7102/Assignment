@@ -1,7 +1,9 @@
-@media(max-width:700px) {
+@media(min-width:200px) and (max-width:480px) {
     * {
         margin: 0%;
         padding: 0%;
+        box-sizing: border-box;
+        transform: all 0.3s ease-in;
     }
 
     body {
@@ -14,17 +16,16 @@
         background-position: center;
         background-size: cover;
         height: 100vh;
-        width: 100%;
+        width: 110%;
     }
 
     .navbar {
         width: 80%;
         margin: auto;
         display: flex;
-        justify-content: space-between;
-        padding: 0px 20px;
-        align-items: center;
-        padding: 20px 0px;
+        flex-direction: column;
+        position: relative;
+        left: -5%;
     }
 
     .logo {
@@ -33,14 +34,44 @@
     }
 
     .link ul li {
-        padding: 10px 18px;
+        padding: 0px 18px;
+    }
+.review-student
+{
+    font-size: 10 px;
+}
+    .content h1 {
+        font-size: 20px;
     }
 
     .content p {
         color: white;
         padding-bottom: 50px;
-        font-size: 22px;
+        font-size: 15px;
         font-weight: 100;
+        width: 150%;
+        margin-left: -25%;
+    }
+
+    .content a {
+        border: 1px solid white;
+        padding: 5px 10px;
+        color: white;
+        text-decoration: none;
+        transition: 0.5s;
+        font-size: 15px;
+
+    }
+
+    .con-main h1,
+    .con-main2 h1,
+    .con-main1 h1 {
+        font-size: 25px;
+    }
+
+    .con-main p,
+    .con-main2 p {
+        font-size: 15px;
     }
 
     .main {
@@ -50,43 +81,172 @@
         flex-direction: column;
     }
 
+    .main-content h2 {
+        font-size: 20px
+    }
+
+    .main-content p {
+        font-size: 13px;
+    }
+
     .row {
         width: 90%;
         margin: auto;
         display: flex;
-        justify-content: space-around;
-        flex-wrap: nowrap;
+        flex-direction: column;
     }
 
     .row .course-col {
-        width: 50%;
-        height: 250px;
-        margin: 2%;
+        width: 100%;
+        height: 230px;
+        margin: 2% auto;
         border-radius: 20px;
-        position: relative;
     }
 
     .row .course-col img {
         width: 100%;
-        height: 250px;
+        height: 230px;
         border-radius: 20px;
     }
 
-    .row .course-col3 {
+    .con-main1 {
         width: 80%;
-        height: 300px;
-        margin-top: 43%;
-        border-radius: 20px;
-        position: absolute;
+        margin: auto;
+        text-align: center;
+        margin-top: 5%;
     }
 
-    .row .course-col3 img {
+    .tp {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+    }
+
+    .image {
         width: 100%;
-        height: 300px;
+        height: 380px;
         border-radius: 20px;
+        margin: auto;
     }
 
-    .course-col3 .layer h3 {
-        padding-left: 30px;
+    .image img {
+        width: 80%;
+        height: 200px;
+        border-radius: 20px;
+        margin-left: 10%;
+    }
+
+    .wraper1 {
+        text-align: center;
+        background-color: rgb(243, 172, 172);
+        padding: 20px 30px;
+        border-radius: 20px;
+        margin-top: 2%;
+        transition: all 0.3s;
+    }
+
+    .wraper1 p {
+        font-size: 13px;
+    }
+
+    .stu h1 {
+        font-size: 22px
+    }
+
+    i {
+        font-size: 20px;
+    }
+
+    .review {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .review .passport {
+        width: 30%;
+        float: left;
+
+    }
+
+    .passport img {
+        width: 80%;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    .review-student {
+        font-size: 13px;
+        width: 70%;
+    }
+
+    .main-pass {
+        width: 90%;
+        background-color: rgb(250, 234, 234);
+        padding: 10px 20px;
+        border-radius: 20px;
+        margin: auto auto 30px auto;
+    }
+
+    .footer {
+        width: 80%;
+        margin: auto;
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer .box1 {
+
+        background-color: #f7c5c5;
+        width: 100%;
+        margin: auto;
+        height: 480px;
+        transition: all 0.3s;
+        padding: 30px 20px;
+
+    }
+
+    .footer .box2 {
+        background-color: #f7c5c5;
+        width: 100%;
+        height: 550px;
+        transition: all 0.3s;
+        padding: 30px 20px;
+        margin: 5% auto;
+    }
+
+    label {
+        font-size: 13px;
+    }
+
+    .website {
+        width: 108%;
+    }
+
+    .enter {
+        width: 30%;
+        position: absolute;
+        left: 50%;
+    }
+
+    button {
+        background-color: rgb(255, 255, 255);
+        border: none;
+        padding: 10px 20px;
+        width: 120px;
+        border-radius: 5px;
+        transition: all 0.3s;
+        font-size: 10px;
+        transform: translate(-50% -50%);
+        position: absolute;
+        left: -4%;
+    }
+
+    .p--1 {
+        font-size: 13px;
     }
 }
