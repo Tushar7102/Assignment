@@ -1,0 +1,361 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  ::-webkit-scrollbar
+  {
+    width: 10px;
+    
+  }
+  ::-webkit-scrollbar-track
+  {
+
+     border-radius: 50px;
+     
+  }
+  ::-webkit-scrollbar-thumb
+  {
+    background-color: #d5c455;
+    border-radius: 10px;
+  }
+  
+  body {
+    background-color: #f4f0f0;
+  }
+  
+  .main {
+    width: 100%;
+  }
+  
+  p {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  a:hover {
+    color: #d5c455;
+  }
+  
+  .nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .icon {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .nav-menu {
+    display: none;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+  }
+  
+  .nav-menu ul li {
+    padding:5px 0px;
+    font-size: 12px;
+    font-family: "poppins", sans-serif;
+  }
+  
+  .nav-menu ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  .icon:hover .nav-menu {
+    display: block;
+    position: absolute;
+    right: 9%;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-weight: 100;
+    background-color: white;
+    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
+  }
+  
+  .content {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+  
+  .postion {
+    width: 10%;
+    margin: auto;
+    margin-top: 6%;
+    text-align: center;
+    font-family: "Poppins", Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: "Poppins", Arial, sans-serif;
+  }
+  .contact
+  {
+    width:10%;
+    margin: auto;
+    padding:128px 0px;
+   
+  }
+  .contat-menu
+  {
+    position:absolute;
+    left:11%;
+    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
+    width: 588px;
+    height: 752.6px;
+    background-color: #ffffff;
+    
+  }
+ 
+
+
+
+  
+.footer {
+    position: absolute; 
+    left:29%;
+    color: #999999;
+    text-align: center;
+    padding: 32px 0px;
+  }
+  .p1
+  {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 22px;
+    color: black;
+  }
+  .contat-menu h5
+  {
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    font-size: 15px;
+    color: #999999;
+    font-weight: 100;
+    font-family: 'popiness';
+  }
+  .h--1
+  {
+    position: absolute;
+    top: 15%;
+    left: 30px;
+    font-size: 15px;
+
+  }
+  .p-1
+  {
+    position: absolute;
+    top:20%;
+    left: 30px;
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .h--2
+  {
+    position: absolute;
+    top: 15%;
+    left:38%;
+    font-size: 15px;
+
+  }
+  .p-2
+  {
+    position: absolute;
+    top:20%;
+    left:38%;
+    text-align: justify;
+    font-size: 15px;
+  }
+  .h--3
+  {
+    position: absolute;
+    top: 15%;
+    left:70%;
+    font-size: 15px;
+
+  }
+  .p-3
+  {
+    position: absolute;
+    top:20%;
+    left:70%;
+    text-align: justify;
+    font-size: 15px;
+  }
+  .input-1
+  {
+    position: absolute;
+    top:35%;
+    left: 30px;
+    width: 90%;
+    height:5%;
+    outline: none;
+    border-top:transparent;
+    border-left:transparent;
+    border-right:transparent;
+    border-bottom: 0.5px solid gray;
+    padding-left:10px ;
+  }
+  .input-1:hover
+  {
+    border-radius:10px;
+    border-bottom: 1px solid #d5c455;
+  }
+
+  .input-2
+  {
+    position: absolute;
+    top:45%;
+    left: 30px;
+    width: 90%;
+    height:5%;
+    outline: none;
+    border-top:transparent;
+    border-left:transparent;
+    border-right:transparent;
+    border-bottom: 0.5px solid gray;
+    padding-left:10px ;
+  }
+  .input-2:hover
+  {
+    border-radius:10px;
+    border-bottom: 1px solid #d5c455;
+  }
+
+  
+  .input-3
+  {
+    position: absolute;
+    top:55%;
+    left: 30px;
+    width: 90%;
+    height:5%;
+    outline: none;
+    border-top:transparent;
+    border-left:transparent;
+    border-right:transparent;
+    border-bottom: 0.5px solid gray;
+    padding-left:10px ;
+  }
+  .input-3:hover
+  {
+    border-radius:10px;
+    border-bottom: 1px solid #d5c455;
+  }
+
+  textarea
+  {
+    position: absolute;
+    top:65%;
+    left: 30px;
+    width: 90%;
+    height:5%;
+    outline: none;
+    border-top:transparent;
+    border-left:transparent;
+    border-right:transparent;
+    border-bottom: 0.5px solid gray;
+    padding-left:10px ;
+  }
+  textarea:hover
+  {
+    border-radius:10px;
+    border-bottom: 1px solid #d5c455;
+  }
+  button
+  {
+    position: absolute;
+    top:72%;
+    left: 30px;
+    width: 20%;
+    height:5%;
+    outline: none;
+    border:none;
+    background-color: #d5c455;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  button a
+  {
+    color: white;
+  }
+  button:hover
+  {
+    width:22%;
+    outline:3px solid orange ;
+    border-radius: 20px;
+  }
+  .p--1
+  {
+    position: absolute;
+    top: 83%;
+    color: black;
+    left:30px;
+  }
+  .a-1
+  {
+    position: absolute;
+    top:88%;
+    left: 30px;
+    color: black;
+    font-family: 'arial';
+    font-weight: 100;
+  }
+
+  .a-2
+  {
+    position: absolute;
+    top:88%;
+    left:20%;
+    color: black;
+    font-family: 'arial';
+    font-weight: 100;
+  }
+  .a-3
+  {
+    position: absolute;
+    top:88%;
+    left:36.5%;
+    color: black;
+    font-family: 'arial';
+    font-weight: 100;
+  }
+  .a-4
+  {
+    position: absolute;
+    top:88%;
+    left:49%;
+    color: black;
+    font-family: 'arial';
+    font-weight: 100;
+  }

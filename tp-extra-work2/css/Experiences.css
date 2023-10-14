@@ -1,0 +1,507 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'arial';
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #d5c455;
+    border-radius: 10px;
+  }
+  
+  body {
+    background-color: #f4f0f0;
+  }
+  
+  .main {
+    width: 100%;
+  }
+  
+  p {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    font-weight: 600;
+  
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  a:hover {
+    color: #d5c455;
+  }
+  
+  .nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .icon {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .nav-menu {
+    display: none;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+  }
+  
+  .nav-menu ul li {
+    padding: 5px 0px;
+    font-size: 12px;
+    font-family: "poppins", sans-serif;
+  }
+  
+  .nav-menu ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  .icon:hover .nav-menu {
+    display: block;
+    position: absolute;
+    right: 9%;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-weight: 100;
+    background-color: white;
+    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
+  }
+  
+  .content {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+  
+  .postion {
+    width: 10%;
+    margin: auto;
+    margin-top: 6%;
+    text-align: center;
+    font-family: "Poppins", Arial, sans-serif;
+  }
+  .animate__tada
+  {
+    font-size: 11px;
+    
+  }
+  .postion h1 {
+    font-size:18px;
+    text-align: center;
+  }
+
+  .main-row-1
+  {
+    
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .experience-1
+  {
+    width:48%;
+    height:300px;
+    background-color:white;
+    margin-top:10%;
+  }
+  .icon-experience
+  {
+    position: absolute;
+    top:38%;
+    left:11%;
+    width:70px;
+    height: 10%;
+    border-radius: 50%;
+    background-color: #d5c455;
+  }
+  .fa-user-graduate
+  {
+    position: absolute;
+    top:20px;
+    left:20px;
+    font-size: 32px;
+  }
+  .p-experience
+  {
+    position: absolute;
+    color: #d5c455;
+    top: 49%;
+    left:12%;
+    font-weight: 200;
+    
+  }
+  .h4-experience
+  {
+    position: absolute;
+    top:53%;
+    font-size:25px;
+    left: 12%;
+  }
+  .fa-map-pin
+  {
+    position: absolute;
+    top:58%;
+    left:12%;
+    color: #d5c455;
+  }
+  .fa-map-pin span
+  {
+    color: gray;
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .p1-experience
+  {
+    position: absolute;
+    top: 65%;
+    left: 12%;
+    font-weight: 300;
+    font-size: 15px;
+  }
+   .icon-experience1
+  {
+    position: absolute;
+    top:38%;
+    left:53%;
+    width:70px;
+    height: 10%;
+    border-radius: 50%;
+    background-color: #d5c455;
+  }
+  .p-experience1
+  {
+    position: absolute;
+    color: #d5c455;
+    top: 49%;
+    left:54%;
+    font-weight: 200;
+    
+  }
+  .h4-experience1
+  {
+    position: absolute;
+    top:53%;
+    font-size:25px;
+    left:54%;
+  }
+  .ri-map-pin-5-line
+  {
+    position: absolute;
+    top:58%;
+    left:54%;
+    color: #d5c455;
+  }
+  .ri-map-pin-5-line span
+  {
+    color: gray;
+    font-size: 12px;
+    font-weight: 100;
+  }
+  .p1-experience1
+  {
+    position: absolute;
+    top: 65%;
+    left:54%;
+    font-weight: 300;
+    font-size: 15px;
+
+  }
+  .main-row-2
+  {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .experience-2
+  {
+    width:48%;
+    height:300px;
+    background-color:white;
+    margin-top:10%;
+  }
+  .icon-experience2
+  {
+    position: absolute;
+    top:95%;
+    left:11%;
+    width:70px;
+    height: 10%;
+    border-radius: 50%;
+    background-color: #d5c455;
+  }
+  .fa-user-graduate
+  {
+    position: absolute;
+    top:20px;
+    left:20px;
+    font-size: 32px;
+  }
+  .p-experience2
+  {
+    position: absolute;
+    color: #d5c455;
+    top: 105%;
+    left:12%;
+    font-weight: 200;
+    
+  }
+  .h4-experience2
+  {
+    position: absolute;
+    top:110%;
+    font-size:25px;
+    left: 12%;
+  }
+  .ri-map-pin-line
+  {
+    position: absolute;
+    top:115%;
+    left:12%;
+    color: #d5c455;
+  }
+  .fa-map-pin span
+  {
+    color: gray;
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .p1-experience2
+  {
+    position: absolute;
+    top: 125%;
+    left: 12%;
+    font-weight: 300;
+    font-size: 15px;
+  }
+
+  .experience-3
+  {
+    width:48%;
+    height:300px;
+    background-color:white;
+    margin-top:10%;
+  }
+  .icon-experience3
+  {
+    position: absolute;
+    top:95%;
+    left:53%;
+    width:70px;
+    height: 10%;
+    border-radius: 50%;
+    background-color: #d5c455;
+  }
+  .fa-user-graduate
+  {
+    position: absolute;
+    top:20px;
+    left:20px;
+    font-size: 32px;
+  }
+  .p-experience3
+  {
+    position: absolute;
+    color: #d5c455;
+    top: 105%;
+    left:54%;
+    font-weight: 200;
+    
+  }
+  .h4-experience3
+  {
+    position: absolute;
+    top:110%;
+    font-size:25px;
+    left:54%;
+  }
+  .ri-map-pin-2-line
+  {
+    position: absolute;
+    top:115%;
+    left:54%;
+    color: #d5c455;
+  }
+  .fa-map-pin span
+  {
+    color: gray;
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .p1-experience3
+  {
+    position: absolute;
+    top: 125%;
+    left:54%;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .main-row-3
+  {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  .experience-3
+  {
+    width:48%;
+    height:300px;
+    background-color:white;
+    margin-top:10%;
+  }
+  .icon-experience4
+  {
+    position: absolute;
+    top:152%;
+    left:12%;
+    width:70px;
+    height: 10%;
+    border-radius: 50%;
+    background-color: #d5c455;
+  }
+  .fa-user-graduate
+  {
+    position: absolute;
+    top:20px;
+    left:20px;
+    font-size: 32px;
+  }
+  .p-experience4
+  {
+    position: absolute;
+    color: #d5c455;
+    top: 163%;
+    left: 13%;
+    font-weight: 200;
+    
+  }
+  .h4-experience4
+  {
+    position: absolute;
+    top:168%;
+    font-size:25px;
+    left:13%;
+  }
+  .ri-map-pin-3-line
+  {
+    position: absolute;
+    top:173%;
+    left:13%;
+    color: #d5c455;
+  }
+  .fa-map-pin span
+  {
+    color: gray;
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .p1-experience4
+  {
+    position: absolute;
+    top: 185%;
+    left:13%;
+    font-weight: 300;
+    font-size: 15px;
+  }
+
+  
+
+  .icon-experience5
+  {
+    position: absolute;
+    top:152%;
+    left:53%;
+    width:70px;
+    height: 10%;
+    border-radius: 50%;
+    background-color: #d5c455;
+  }
+  .fa-user-graduate
+  {
+    position: absolute;
+    top:20px;
+    left:20px;
+    font-size: 32px;
+  }
+  .p-experience5
+  {
+    position: absolute;
+    color: #d5c455;
+    top: 163%;
+    left:54%;
+    font-weight: 200;
+    
+  }
+  .h4-experience5
+  {
+    position: absolute;
+    top:168%;
+    font-size:25px;
+    left:54%;
+  }
+  .ri-map-pin-4-line
+  {
+    position: absolute;
+    top:173%;
+    left: 54%;
+    color: #d5c455;
+  }
+  .fa-map-pin span
+  {
+    color: gray;
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .p1-experience5
+  {
+    position: absolute;
+    top: 185%;
+    left:53%;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer {
+    position: absolute; 
+    margin-top: 100px;
+    left:33%;
+    color: #999999;
+    text-align: center;
+    padding: 32px 0px;
+  }
+  

@@ -1,0 +1,218 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'arial';
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #d5c455;
+    border-radius: 10px;
+  }
+  
+  body {
+    background-color: #f4f0f0;
+  }
+  
+  .main {
+    width: 100%;
+  }
+  
+  p {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    font-weight: 600;
+  
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  a:hover {
+    color: #d5c455;
+  }
+  
+  .nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .icon {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .nav-menu {
+    display: none;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+  }
+  
+  .nav-menu ul li {
+    padding: 5px 0px;
+    font-size: 12px;
+    font-family: "poppins", sans-serif;
+  }
+  
+  .nav-menu ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  .icon:hover .nav-menu {
+    display: block;
+    position: absolute;
+    right: 9%;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-weight: 100;
+    background-color: white;
+    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
+  }
+  
+  .content {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+  
+  .postion {
+    width: 10%;
+    margin: auto;
+    margin-top: 6%;
+    text-align: center;
+    font-family: "Poppins", Arial, sans-serif;
+  }
+  .postion p
+  {
+    font-size: 15px;
+  }
+  .animate__tada
+  {
+    font-size: 11px;
+    
+  }
+  .postion h1 {
+    font-size:18px;
+    text-align: center;
+  }
+
+
+  
+.row
+{
+    width: 80%;
+    padding: 50px 0px;
+    margin: auto;
+}
+
+
+.row .pic
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top:40px;
+
+}
+
+.row  .cource-col
+{ 
+    width: 380px;
+    height: 380px;
+    position: relative;
+}
+
+.row  .cource-col img
+{
+    height: 100%;
+    width: 100%;
+}
+.row  .cource-col .layer
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.row  .cource-col .layer h3
+{
+    color: white;
+    position: absolute; 
+    bottom: 0%;
+    left: 45%;
+    opacity: 0;
+    transition: 0.3s;
+}
+.row  .cource-col .layer span
+{
+    color: white;
+    position: absolute; 
+    bottom: 0%;
+    left: 45%;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.row  .cource-col .layer .AHMEDABAD
+{
+    color: white;
+    position: absolute; 
+    bottom: 0%;
+    left: 40%;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.row .pic .cource-col .layer:hover
+{
+    background-color:rgba(241, 173, 16, 0.5);
+}
+
+.cource-col .layer:hover h3
+{
+    opacity: 1;
+    bottom: 40%;
+}
+.cource-col .layer:hover span
+{
+    opacity: 1;
+    bottom: 50%;
+}
+.cource-col .layer:hover .AHMEDABAD
+{
+    opacity: 1;
+    bottom: 50%;
+}
+.footer {
+    position: absolute; 
+    margin-top: 100px;
+    left:33%;
+    color: #999999;
+    text-align: center;
+    padding: 32px 0px;
+  }
+  
