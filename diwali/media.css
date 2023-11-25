@@ -1,0 +1,103 @@
+@media(max-width:480px)
+{
+    .wraper
+{
+    background: linear-gradient(0deg, rgba(254,255,0,1) 0%, rgba(241,255,0,1) 51%, rgba(241,255,0,1) 100%);
+    width: 100%;
+    padding: 0px 0px 580px 0px;
+    margin: auto;
+    z-index: -99;
+}
+    .main
+{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url('img/front.jpg');
+    height: 48vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+    .main-1
+{
+    position: absolute;
+    bottom: 48%; 
+    width: 100%;
+    
+}
+.main-2
+{
+    position: absolute;
+    bottom: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.img 
+{
+    position: absolute;
+    top: 35%;
+    left: -2%;
+    z-index: 10;
+    width: 150px;
+    z-index: 10;
+}
+.img img
+{
+    width: 100%;
+    mix-blend-mode: overlay;
+}
+.img2
+{
+    position: absolute;
+    top: 42%;
+    right:0%;
+    z-index: 99;
+    width: 100px;
+}
+.img2 img
+{
+    width: 90%;
+}
+.con
+{
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 15;
+    text-align: center;
+}
+.frist
+{
+    font-size: 25px;
+}
+.con h3
+{
+    z-index: 15;
+}
+.topic
+{
+    font-size: 25px;
+    margin-top: -20px;
+    width: 100%;
+    margin-left: -24%;
+}
+.con h4
+{
+    font-size: 18px;
+}
+.con p
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+.topic1
+{
+    margin-top: -30px;
+    font-size: 20px;
+}
+.miss
+{
+    margin-top: -30px;
+}
+}

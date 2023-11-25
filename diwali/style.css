@@ -1,0 +1,118 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.wraper
+{
+    background: linear-gradient(0deg, rgba(254,255,0,1) 0%, rgba(241,255,0,1) 51%, rgba(241,255,0,1) 100%);
+    width: 80%;
+    padding: 0px 0px 550px 0px;
+    margin: auto;
+    z-index: -99;
+}
+.main
+{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.1)),url('img/front.jpg');
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+.main-1
+{
+    position: absolute;
+    bottom: 40%; 
+    z-index: 2;
+    width: 80%;
+    margin: auto;
+}
+.main-2
+{
+    position: absolute;
+    bottom: 41%;
+    z-index: 1;
+    width: 80%;
+    margin: auto;
+}
+.img 
+{
+    position: absolute;
+    top: 35%;
+    left: 12%;
+    z-index: 10;
+    width: 300px;
+    z-index: 10;
+}
+.img img
+{
+    width: 100%;
+    mix-blend-mode: overlay;
+}
+.img2
+{
+    position: absolute;
+    top: 35%;
+    right:10%;
+    z-index: 99;
+    width: 400px;
+}
+.img2 img
+{
+    width: 90%;
+}
+.con
+{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 15;
+    text-align: center;
+}
+.frist
+{
+    color: red;
+    font-family: 'Roboto', sans-serif;
+}
+.topic
+{
+   color: white;
+   background-color: brown;
+   padding: 10px 50px;
+   border-radius: 10px;
+   font-family: 'Roboto', sans-serif;
+}
+.con h4
+{
+    font-size: 22px;
+    font-weight:bold;
+    text-shadow: 0px 10px 10px #000000;
+}
+.con p
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+.cost
+{
+    background-color: white;
+    display: inline-block;
+    padding: 5px 20px;
+}
+.topic1
+{
+    color: white;
+    background-color: rgb(31, 16, 149);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    display: inline-block;
+}
+.offrer
+{
+    font-size: 17px;
+}
