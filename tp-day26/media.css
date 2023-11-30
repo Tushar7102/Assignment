@@ -1,0 +1,33 @@
+@media(max-width:991px)
+{
+    .login
+    {
+        display: none;
+    }
+    .logo
+    {
+        width: 40%;
+    }
+    .logo-1
+    {
+        width: 30%;
+        position: relative;
+        left: 20%;
+    }
+    .con
+    {
+        width: 40%;
+    }
+    .con .logo-1
+    {
+        width: 50%;
+    }
+    .animatedText
+    {
+        font-size: 22px;
+    } 
+    .wrapping p
+    {
+        font-size: 15px;
+    }
+}
