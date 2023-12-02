@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!-- link file -->
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="nevigation1 bg-dark position-fixed w-100 top-0 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="d-flex justify-content-end align-items-center mb-0 list-unstyled">
+                        <li class="nav-item"><a href="" class="nav-link text-light"><i
+                                    class="bi bi-geo-alt-fill"></i>Stores</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-light" data-bs-target="#mo-1"
+                                data-bs-toggle="modal"><i class="bi bi-person-fill"></i>Login/Register</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-light"><i class="bi bi-heart-fill"></i></a>
+                        </li>
+                        <li class="nav-item"><a href="" class="nav-link text-light"><i class="bi bi-cart-fill"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" id="mo-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-light ">
+                    <div class="modal-title">
+                        <h5>Login/Register</h5>
+                    </div>
+                    <button class="btn-close bg-light " data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <label class="form-label">First name:</label>
+                        <input type="text" placeholder="Enter your name" class="form-control">
+                        <label class="form-label">Password:</label><br>
+                        <input type="password" placeholder="Enter your password" class="form-control">
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main1 mt-0 mt-sm-1 mt-md-3 mt-lg-3 mt-xl-3">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-between col-12 d-sm-flex flex-sm-column flex-column flex-md-row">
+                    <div class="img-fluid col-12 m-auto col-sm-12 col-md-3 mt-md-1 col-lg-3 mt-1 logo2">
+                        <img src="img/logo.webp" alt="image not spported"
+                            class="w-100 img-fluid d-none d-md-block d-lg-block d-xl-block d-xxl-block">
+                        <img src="img/logo2.png" alt=""
+                            class="w-75 img-fluid d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none m-auto pt-2 pb-2">
+                    </div>
+                    <div class="oneof col-12 col-sm-12 col-md-5 m-md-auto col-lg-6 mb-2">
+                        <ul
+                            class="d-flex justify-content-center list-unstyled d-sm-flex flex-md-row mt-3 mt-sm-2 mt-md-0 mt-lg-2 ">
+                            <li class="nav-item">
+                                <a href="" class="nav-link link-dark">WOMEN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link link-dark">MEN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link link-dark">HAPS STORIES</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="serchbar col-8 col-sm-8 m-sm-auto mt-sm-0 m-auto col-md-4 col-lg-3 mt-lg-1">
+                        <input type="search" placeholder="search" class="form-control w-100">
+                        <i class="bi bi-search text-dark"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-conteiner">
+        <div class="slide">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 img-6">
+                        <img src="img/slide-6img.webp" alt="" class="img-fluid img-6-f">
+                    </div>
+                    <div class="col-12 mt-4 mt-md-0 mt-lg-0 mt-xl-0 mt-xxl-0">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/slide1.webp"
+                                        class="d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block  w-100 img-fluid sli-img"
+                                        alt="...">
+                                    <img src="img/slide3.webp"
+                                        class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none  w-100 img-fluid sli-img"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/slide2.webp" class="d-block w-100 img-fluid sli-img" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/slide3.webp" class="d-block w-100 img-fluid sli-img" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/slide4.webp" class="d-block w-100 img-fluid sli-img" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mt-4">
+                        <div class="sepector">
+                            HAPS CATEGORIES
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="shops">
+            <div class="container">
+                <div class="row g-2 mt-3">
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3"><a
+                            href="https://www.happenstance.com/product-category/casual-shoes-for-men-and-women"><img
+                                src="img/shouse1.webp" alt="" class="img-fluid shop1"></a></div>
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3"><a
+                            href="https://www.happenstance.com/product-category/perfect-sandals-for-men-and-women"><img
+                                src="img/shouse2.webp" alt="" class="img-fluid shop1"></a></div>
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3"><a
+                            href="https://www.happenstance.com/product-category/womens-sandals"><img
+                                src="img/shouse3.webp" alt="" class="img-fluid shop1"></a></div>
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3"><a
+                            href="https://www.happenstance.com/product-category/mens-sandals"><img
+                                src="img/shouse4.webp" alt="" class="img-fluid shop1"></a></div>
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3"><a
+                            href="https://www.happenstance.com/product-category/womens-shoes"><img
+                                src="img/shouse5.webp" alt="" class="img-fluid shop1"></a></div>
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3"><a
+                            href="https://www.happenstance.com/product-category/water-friendly-sandals-for-women"><img
+                                src="img/shouse6.webp" alt="" class="img-fluid shop1"></a></div>
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3"><a
+                            href="https://www.happenstance.com/product-category/flatters"><img src="img/shouse7.webp"
+                                alt="" class="img-fluid shop1"></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mt-4">
+                        <div class="sepector">
+                            HAPS MOMENTS
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="video10">
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <video src="img/video1.mp4" class="w-100 video1" autoplay loop=""></video>
+                            <p class="lines">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/video-img2.webp" alt="" class="img-fluid w-100 video2">
+                            <p class="lines2">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/video-img3.webp" alt="" class="img-fluid w-100 video2">
+                            <p class="lines2">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <video src="img/video4.mp4" class="w-100 video1" autoplay loop=""></video>
+                            <p class="lines">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <video src="img/video5.mp4" class="w-100 video1" autoplay loop=""></video>
+                            <p class="lines">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <video src="img/video6.mp4" class="w-100 video1" autoplay loop=""></video>
+                            <p class="lines">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <video src="img/video7.mp4" class="w-100 video1" autoplay loop=""></video>
+                            <p class="lines">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/video-img8.webp" alt="" class="img-fluid w-100 video2">
+                            <p class="lines2">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/video-img9.webp" alt="" class="img-fluid w-100 video2">
+                            <p class="lines2">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/video-img10.webp" alt="" class="img-fluid w-100 video2">
+                            <p class="lines2">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <video src="img/video11.mp4" class="w-100 video1" autoplay loop=""></video>
+                            <p class="lines">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <video src="img/video12.mp4" class="w-100 video1" autoplay loop=""></video>
+                            <p class="lines">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/video-img13.webp" alt="" class="img-fluid w-100 video2">
+                            <p class="lines2">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/video-img14.webp" alt="" class="img-fluid w-100 video2">
+                            <p class="lines2">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/video-img15.webp" alt="" class="img-fluid w-100 video2">
+                            <p class="lines2">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/video-img16.webp" alt="" class="img-fluid w-100 video2">
+                            <p class="lines2">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/video-img17.webp" alt="" class="img-fluid w-100 video2">
+                            <p class="lines2">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/video-img18.webp" alt="" class="img-fluid w-100 video2">
+                            <p class="lines2">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <video src="img/video19.mp4" class="w-100 video1" autoplay loop=""></video>
+                            <p class="lines">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <video src="img/video20.mp4" class="w-100 video1" autoplay loop=""></video>
+                            <p class="lines">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <video src="img/video21.mp4" class="w-100 video1" autoplay loop=""></video>
+                            <p class="lines">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <video src="img/video22.mp4" class="w-100 video1" autoplay loop=""></video>
+                            <p class="lines">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/video-img23.webp" alt="" class="img-fluid w-100 video2">
+                            <p class="lines2">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/video-img24.webp" alt="" class="img-fluid w-100 video2">
+                            <p class="lines2">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <video src="img/video25.mp4" class="w-100 video1" autoplay loop=""></video>
+                            <p class="lines">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/video-img26.webp" alt="" class="img-fluid w-100 video2">
+                            <p class="lines2">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/video-img27.webp" alt="" class="img-fluid w-100 video2">
+                            <p class="lines2">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 vi-28">
+                        <a href="" style="text-decoration: none;">
+                            <video src="img/video28.mp4" class="w-100 video1" autoplay loop=""></video>
+                            <p class="lines">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 vi-29">
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/video-img29.webp" alt="" class="img-fluid w-100 video2">
+                            <p class="lines2">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 vi-30">
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/video-img30.webp" alt="" class="img-fluid w-100 video2">
+                            <p class="lines2">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 vi-31">
+                        <a href="" style="text-decoration: none;">
+                            <img src="img/video-img31.webp" alt="" class="img-fluid w-100 video2">
+                            <p class="lines2">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 vi-32">
+                        <a href="" style="text-decoration: none;">
+                            <video src="img/video32.mp4" class="w-100 video1" autoplay loop=""></video>
+                            <p class="lines">Evwry Step,Perfectly Aligned - Nuham</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <div class="col-12 mt-4">
+                <div class="sepector1">
+                </div>
+            </div>
+            <div class="main-footer mt-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 d-flex mt-5 d-sm-none d-md-none d-lg-flex d-none">
+                            <div class="col-3">
+                                <span class="ms-3 fw-bold">MY ACCOUNT</span>
+                                <ul class="m-auto list-unstyled">
+                                    <li class="nav-item"><a href="#" class="nav-link link-secondary">Login/Register</a>
+                                    </li>
+                                    <li class="nav-item"><a href="#" class="nav-link link-secondary">My Wishlist</a>
+                                    </li>
+                                    <li class="nav-item"><a href="#" class="nav-link link-secondary">My order</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link link-secondary">Track order</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-3">
+                                <span class="ms-3 fw-bold">HELP & CONTACT</span>
+                                <ul class="m-auto list-unstyled">
+                                    <li class="nav-item"><a href="#" class="nav-link link-secondary">Contact</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link link-secondary">Trade Enqiry</a>
+                                    </li>
+                                    <li class="nav-item"><a href="#" class="nav-link link-secondary">FAQ</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link link-secondary">Know Your True
+                                            Size</a>
+                                    </li>
+                                    <li class="nav-item"><a href="#" class="nav-link link-secondary">Return/Exchange</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-3">
+                                <span class="ms-3 fw-bold">ABOUT HAPPENSTANCE</span>
+                                <ul class="m-auto list-unstyled">
+                                    <li class="nav-item"><a href="#" class="nav-link link-secondary">Company</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link link-secondary">Our Face </a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link link-secondary">Science of
+                                            comfort</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link link-secondary">Haps Stories</a>
+                                    </li>
+                                    <li class="nav-item"><a href="#" class="nav-link link-secondary">Store Near Me</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-3">
+                                <span class="ms-3 fw-bold">LEGAL</span>
+                                <ul class="m-auto list-unstyled">
+                                    <li class="nav-item "><a href="#"
+                                            class="nav-link link-secondary">Tearm/Condition</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link link-secondary">Privacy Policy</a>
+                                    </li>
+                                    <li class="nav-item"><a href="#" class="nav-link link-secondary">Payment Methods</a>
+                                    </li>
+                                    <li class="nav-item"><a href="#" class="nav-link link-secondary">Shhiping & Return
+                                            Policy</a></li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 d-lg-none">
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                        <div class="accordion-item">
+
+                                            <h2 class="accordion-header" id="flush-headingOne">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                    aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    MY ACCOUNT
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingOne"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul class="m-auto list-unstyled">
+                                                        <li class="nav-item"><a href="#"
+                                                                class="nav-link link-secondary">Login/Register</a></li>
+                                                        <li class="nav-item"><a href="#"
+                                                                class="nav-link link-secondary">My
+                                                                Wishlist</a></li>
+                                                        <li class="nav-item"><a href="#"
+                                                                class="nav-link link-secondary">My
+                                                                order</a></li>
+                                                        <li class="nav-item"><a href="#"
+                                                                class="nav-link link-secondary">Track
+                                                                order</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingTwo">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                    aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                    HELP & CONTACT
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingTwo"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul class="m-auto list-unstyled">
+                                                        <li class="nav-item"><a href="#"
+                                                                class="nav-link link-secondary">Contact</a></li>
+                                                        <li class="nav-item"><a href="#"
+                                                                class="nav-link link-secondary">Trade
+                                                                Enqiry</a></li>
+                                                        <li class="nav-item"><a href="#"
+                                                                class="nav-link link-secondary">FAQ</a>
+                                                        </li>
+                                                        <li class="nav-item"><a href="#"
+                                                                class="nav-link link-secondary">Know
+                                                                Your True Size</a></li>
+                                                        <li class="nav-item"><a href="#"
+                                                                class="nav-link link-secondary">Return/Exchange</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingThree">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                                    ABOUT HAPPENSTANCE
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingThree"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul class="m-auto list-unstyled">
+                                                        <li class="nav-item"><a href="#"
+                                                                class="nav-link link-secondary">Company</a></li>
+                                                        <li class="nav-item"><a href="#"
+                                                                class="nav-link link-secondary">Our
+                                                                Face </a></li>
+                                                        <li class="nav-item"><a href="#"
+                                                                class="nav-link link-secondary">Science
+                                                                of comfort</a></li>
+                                                        <li class="nav-item"><a href="#"
+                                                                class="nav-link link-secondary">Haps
+                                                                Stories</a></li>
+                                                        <li class="nav-item"><a href="#"
+                                                                class="nav-link link-secondary">Store
+                                                                Near Me</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingThree">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree1"
+                                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                                    LEGAL
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseThree1" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingThree"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul class="m-auto list-unstyled">
+                                                        <li class="nav-item "><a href="#"
+                                                                class="nav-link link-secondary">Tearm/Condition</a></li>
+                                                        <li class="nav-item"><a href="#"
+                                                                class="nav-link link-secondary">Privacy
+                                                                Policy</a></li>
+                                                        <li class="nav-item"><a href="#"
+                                                                class="nav-link link-secondary">Payment
+                                                                Methods</a></li>
+                                                        <li class="nav-item"><a href="#"
+                                                                class="nav-link link-secondary">Shhiping & Return
+                                                                Policy</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 mt-5">
+                            <div class="sepector">
+                                HAPS MOMENTS
+                            </div>
+                        </div>
+
+
+                        <div class="container mt-5">
+                            <div class="row">
+                                <div
+                                    class="col-7 col-sm-6 col-md-5 col-lg-4 col-xl-3 col-xxl-3 d-flex m-auto justify-content-around mt-3">
+                                    <div class="col-2">
+                                        <a href="#"><img src="img/facebook.webp" alt="" class="img-fluid"></a>
+                                    </div>
+                                    <div class="col-2">
+                                        <a href="#"><img src="img/instagram.webp" alt="" class="img-fluid"></a>
+                                    </div>
+                                    <div class="col-2">
+                                        <a href="#"><img src="img/pecking.webp" alt="" class="img-fluid"></a>
+                                    </div>
+                                    <div class="col-2">
+                                        <a href="#"><img src="img/you-tube.webp" alt="" class="img-fluid"></a>
+                                    </div>
+                                    <div class="col-2">
+                                        <a href="#"><img src="img/twitter.webp" alt="" class="img-fluid"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="row ">
+                                <div class="col-12 text-center mt-5 mb-5">
+                                    Copyright @Tushar 2023. All rights reserved. <br>
+                                    Powered by: RNW8
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
