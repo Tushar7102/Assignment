@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.baground {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url('/img/123.avif');
+    height: 95vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.lay-out {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.lines {
+    text-align: center;
+    font-weight: bold;
+}
+
+.lines::after {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 5%;
+    background-color: black;
+    margin: 7px auto;
+}
+
+.main-boxs {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px;
+}
+
+.boxs {
+    text-align: center;
+    box-shadow: 0px 0px 15px #cdcdcd;
+    width: 22%;
+}
+
+.icons {
+    font-size: 30px;
+    color: #a2cf8d;
+}
+
+.boxs:hover {
+    background-color: #a2cf8d;
+    color: white;
+    transition: all 0.8s;
+}
+
+.boxs:hover .icons {
+    color: white;
+    transition: all 0.8s;
+}
+
+.background2 {
+    background-image: url('img/back2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.background3 {
+    background-image: url('img/back3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.caunter11 {
+    background-color: #aaaaaa;
+}
+
+.content1 {
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #f4f4f4;
+}
+
+.content2 {
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #f4f4f4;
+}
+
+.content3 {
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #f4f4f4;
+}
+
+.content4 {
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #f4f4f4;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 30px;
+    color: #a2cf8d;
+}
+
+.wrap {
+    font-size: 20px;
+}
+
+.before10::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    width: 7%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.map1 {
+    margin-left: 10px;
+}
+
+input {
+    background-color: #f4f4f4;
+    color: black;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+::placeholder {
+    color: black;
+    padding-left: 5px;
+}
+
+textarea {
+    background-color: #f4f4f4;
+    padding-left: 10px;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 20px;
+}
+
+.btn10 {
+    margin-left: 20px;
+}
+
+.footer {
+    padding: 0px 20px;
+
+}
+
+.footer p {
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.footer i {
+
+    color: white;
+    padding: 0px 20px;
+    font-size: 25px;
+}
+
+
+
+@media(min-width:0px) and (max-width:575px) {
+    .lay-out {
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    }
+
+    .main-boxs {
+        display: flex;
+        flex-direction: column;
+        margin: 40px 0px;
+    }
+
+    .boxs {
+        text-align: center;
+        box-shadow: 0px 0px 15px #cdcdcd;
+        width: 100%;
+        margin-bottom: 20PX;
+    }
+
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    .lay-out {
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    }
+
+    .main-boxs {
+        display: flex;
+        flex-direction: column;
+        margin: 40px 0px;
+    }
+
+    .boxs {
+        text-align: center;
+        box-shadow: 0px 0px 15px #cdcdcd;
+        width: 100%;
+        margin-bottom: 20PX;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .main-boxs {
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 0px;
+    }
+
+    .boxs {
+        text-align: center;
+        box-shadow: 0px 0px 15px #cdcdcd;
+        width: 48%;
+        margin-bottom: 20PX;
+    }
+}
