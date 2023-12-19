@@ -1,0 +1,126 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: all 0.8s ease-in-out;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 80vh;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 80vh;
+}
+
+.animatedText {
+    font-size: 18px;
+}
+
+.bran {
+    width: 90px;
+}
+
+.bran img {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.img-card {
+    border: 2px solid red;
+}
+
+.top1 {
+    height: 253px;
+}
+
+.badges {
+    border: 2px solid red;
+}
+.footer
+{
+    border-radius: 20px 20px 0px 0px;
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+}
+
+@media(max-width:575px) {
+    .carousel-inner {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .bran {
+        width: 90px;
+    }
+
+    .bran img {
+        width: 100%;
+    }
+}
+
+@media(min-width:576px)and (max-width:767px) {
+    .bran {
+        width: 90px;
+    }
+
+    .bran img {
+        width: 100%;
+    }
+}
+
+
+@media(min-width:768px)and (max-width:992px) {
+    .bran {
+        width: 90px;
+    }
+
+    .bran img {
+        width: 100%;
+    }
+
+    .top1 {
+        height: 118px;
+    }
+}
+
+@media(min-width:993px)and (max-width:1199px) {
+    .bran {
+        width: 90px;
+    }
+
+    .bran img {
+        width: 100%;
+    }
+
+    .top1 {
+        height: 170px;
+    }
+}
+
+
+@media(min-width:1200px)and (max-width:1400px) {
+    .bran {
+        width: 90px;
+    }
+
+    .bran img {
+        width: 100%;
+    }
+
+    .top1 {
+        height: 213px;
+    }
+}

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/font.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <header class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid d-flex justify-content-between">
+      <a class="navbar-brand bran p-0" href="#">
+        <img src="images/logo.png" alt="" class="img-fluid">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse p-0" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-danger" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Service
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Graphic Design</a></li>
+              <li><a class="dropdown-item" href="#">Ui/Ux</a></li>
+              <li><a class="dropdown-item" href="#">Full Stack Dev.</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- carousel -->
+  <section>
+    <div id="carouselExampleCaptions" class="carousel slide animate__animated wow animate__bounceIn"
+      data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/img1.avif" class="d-block w-100 img-fluid" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/img2.avif" class="d-block w-100 img-fluid" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/img3.avif" class="d-block w-100 img-fluid" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- about -->
+  <section class="mt-4">
+    <div class="container">
+      <h1 class="text-center">About <Span class="text-danger">me</Span></h1>
+      <hr class="w-25 m-auto">
+      <div class="row mt-5 align-items-center">
+        <div
+          class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 order-2 order-sm-2 order-md-1 animate__animated wow animate__backInLeft">
+          <h1>What do you <span class="text-danger">want to know?</span></h1>
+          <p class="animatedText"></p>
+          <a href="" class="btn btn-outline-danger mb-4">More About me</a>
+
+
+          <div class="accordion mb-4  mb-sm-4 mb-md-0 mb-lg-0 mb-xl-0" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 order-1 order-sm-1 order-md-2 animate__animated wow animate__backInRight">
+          <img src="images/img4.avif" alt="" class="img-fluid w-100">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- service -->
+  <section class="bg-light mt-4">
+    <div class="container pt-4 pb-4">
+      <h1 class="text-center">Our <Span class="text-danger">Services</Span></h1>
+      <hr class="w-25 m-auto">
+
+      <div class="row mt-5 animate__animated wow animate__fadeInDown">
+        <div
+          class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4 mb-sm-4 mb-md-0 animate__animated wow animate__rotateInDownLeft">
+          <div class="card bg-danger text-light">
+            <div class="card-body">
+              <i class="bi bi-people-fill"></i>
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-outline-light">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4 mb-sm-4 mb-md-0">
+          <div class="card">
+            <div class="card-body">
+              <i class="bi bi-code-slash"></i>
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-outline-danger">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4 mb-sm-4 mb-md-0 animate__animated wow animate__rotateInDownRight">
+          <div class="card bg-danger text-light">
+            <div class="card-body">
+              <i class="bi bi-people-fill"></i>
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-outline-light">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4 animate__animated wow animate__fadeInUp">
+        <div
+          class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4 mb-sm-4 mb-md-0 animate__animated wow animate__rotateInUpLeft">
+          <div class="card">
+            <div class="card-body">
+              <i class="bi bi-code-slash"></i>
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-outline-danger">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4 mb-sm-4 mb-md-0">
+          <div class="card bg-danger text-light">
+            <div class="card-body">
+              <i class="bi bi-people-fill"></i>
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-outline-light">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div
+          class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4 mb-sm-4 mb-md-0 animate__animated wow animate__rotateInUpRight">
+          <div class="card">
+            <div class="card-body">
+              <i class="bi bi-code-slash"></i>
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-outline-danger">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- our team -->
+  <section class="mt-4">
+    <div class="container">
+      <h1 class="text-center">Our <Span class="text-danger">Team</Span></h1>
+      <hr class="w-25 m-auto">
+
+      <div class="row mt-5 animate__animated wow animate__tada">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4 mb-sm-4 mb-md-0">
+          <div class="card p-3 img-card">
+            <img src="images/img5.jpg" class="card-img-top top1" alt="...">
+            <div class="card-body">
+              <div class="card-text text-center">
+                <h4>Alex Neol</h4>
+                <p>Full Stack Developer</p>
+                <a href="" class="btn btn-outline-danger">Go Somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4 mb-sm-4 mb-md-0">
+          <div class="card p-3 img-card">
+            <img src="images/img7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="card-text text-center">
+                <h4>Devid Warner</h4>
+                <p>UI Designer</p>
+                <a href="" class="btn btn-outline-danger">Go Somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4 mb-sm-4 mb-md-0">
+          <div class="card p-3 img-card">
+            <img src="images/img6.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="card-text text-center">
+                <h4>John Smith</h4>
+                <p>Fluter Developer</p>
+                <a href="" class="btn btn-outline-danger">Go Somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- address -->
+  <section class="mt-4 mb-4">
+    <div class="container">
+      <h1 class="text-center">Feel free <Span class="text-danger">to Connect</Span></h1>
+      <hr class="w-25 m-auto">
+      <div class="row mt-4">
+        <div
+          class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4 mb-sm-4 mb-md-0 bg-light order-2 order-sm-2 order-md-1 p-3 p-sm-3 p-md-4 p-lg-5 animate__animated wow animate__backInUp">
+          <div class="row">
+            <div class="col-6 mb-4">
+              <label class="form-label">Email</label>
+              <input type="text" class="form-control" required>
+            </div>
+            <div class="col-6 mb-4">
+              <label class="form-label">Email</label>
+              <input type="text" class="form-control" required>
+            </div>
+          </div>
+          <div class="col-12 mb-4">
+            <label class="form-label">Address</label>
+            <input type="address" class="form-control" required>
+          </div>
+          <div class="row mb-4">
+            <div class="col-4">
+              <label class="form-label">Password</label>
+              <input type="password" class="form-control" required>
+            </div>
+            <div class="col-4">
+              <label class="form-label">State</label>
+              <select class="form-control" required>
+                <option>Maharashtra</option>
+                <option>Panjab</option>
+                <option>Gujarat</option>
+                <option>Kerala</option>
+              </select>
+            </div>
+            <div class="col-4">
+              <label class="form-label">Zip</label>
+              <input type="text" class="form-control" required>
+            </div>
+          </div>
+          <div class="col-12 mb-4">
+            <input type="checkbox" required>
+            <label>Check me out</label>
+          </div>
+          <div class="col-12">
+            <a href="" class="btn btn-danger ">Sign in</a>
+          </div>
+        </div>
+        <div
+          class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4 mb-sm-4 mb-md-0 order-1 order-sm-1 order-md-2 p-3 badges d-flex align-items-center animate__animated wow animate__backInDown">
+          <a href="">
+            <video src="images/istock-1055854040_preview.mp4" class="w-100 video1" autoplay loop=""></video>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="bg-danger mt-5 footer">
+    COPYRIGHT ©2023 DESIGN:TUSHAR
+  </section>
+
+
+  <script src="css/index.js"></script>
+</body>
+
+</html>
