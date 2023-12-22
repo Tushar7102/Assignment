@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto:ital@1&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid navi">
+      <a class="navbar-brand me-0" href="#">
+        <img src="img/logo.png" alt="" class="img-fluid w-75">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Content">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="Content">
+        <ul
+          class=" me-auto mb-2 mb-lg-0 d-flex flex-column d-sm-flex flex-sm-column d-lg-flex flex-lg-row d-xl-flex flex-xl-row">
+          <li class="nav-item m-2 pe-3">
+            <a class="nav-link active bigs mb-2 mt-2 mt-sm-2 mt-md-2 mt-lg-0" href="#">HOME</a>
+          </li>
+          <li class="nav-item m-2 pe-3">
+            <a class="nav-link bigs mb-2" href="#">PAGES</a>
+          </li>
+          <li class="nav-item dropdown m-2 pe-3">
+            <a class="nav-link dropdown-toggle bigs mb-2" href="#" id="navbarDropdown" data-bs-toggle="dropdown">
+              VEHICLE FLEET
+            </a>
+            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item text-light" href="#">Action</a></li>
+              <li><a class="dropdown-item text-light" href="#">Another action</a></li>
+              <li><a class="dropdown-item text-light" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item m-2 pe-3">
+            <a class="nav-link bigs mb-2" href="#" tabindex="-1">BLOG</a>
+          </li>
+          <li class="nav-item m-2 pe-3">
+            <a class="nav-link bigs mb-2" href="#" tabindex="-1">SHOP</a>
+          </li>
+        </ul>
+        <form class="d-block d-sm-block d-md-block d-lg-none">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-info mt-2 float-end" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+    <form class="d-flex pe-4 ps-4 d-none d-sm-none d-md-none d-lg-block me-2">
+      <a href="" class="btn" data-bs-target="#modalse" data-bs-toggle="modal"><i class="bi bi-search"></i></a>
+
+      <div class="modal" tabindex="-1" id="modalse">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark text-light">
+            <div class="modal-header">
+              <h5 class="modal-title">Search Car</h5>
+              <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-info mt-4 float-end" type="submit">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </header>
+
+  <section class="sliders">
+    <div class="container-fluid maxi">
+      <div class="slider">
+        <div class="slide__next">
+          <svg class="button" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>Next Button</title>
+            <circle cx="35" cy="35" r="35" />
+            <path d="M30.7,46.7 29.3,45.3 39.6,35 29.3,24.7 30.7,23.3 42.4,35z" />
+          </svg>
+        </div>
+        <div class="slide slide__left">
+          <div>
+            <img class="slideImage" src="img/img2.jpg" class="img-fluid">
+          </div>
+          <div>
+            <img class="slideImage" src="img/img1.jpg" class="img-fluid">
+          </div>
+          <div>
+            <img class="slideImage" src="img/img3.jpg" class="img-fluid">
+          </div>
+        </div>
+        <div class="slide slide__right">
+          <div>
+            <img class="slideImage" src="img/img2.jpg" class="img-fluid">
+          </div>
+          <div>
+            <img class="slideImage" src="img/img1.jpg" class="img-fluid">
+          </div>
+          <div>
+            <img class="slideImage" src="img/img3.jpg" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="number1">
+    <div class="container-fluid maxi">
+      <div class="row">
+        <div
+          class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-5 mb-sm-5 mb-md-5 mb-lg-0 animate__animated wow animate__backInDown">
+          <h1 class="cars">Do You Require A Car? <br>
+            Get In Touch With Us</h1>
+          <h6 class="car2">FINEST CAR RENTA</h6>
+          <p class="mt-4 mb-4 sus">Suspendisse in est ante in nibh mauris cursus mattis molestie laorei <br> id donec
+            ultrices tincidunt arcu non sodales neq.</p>
+          <div class="row d-flex align-items-center">
+            <div class="col-2">
+              <img src="img/img-5.png" alt="" class="img-fluid w-75">
+            </div>
+            <div class="col-10 sus">
+              <div>Phone: (012) 345 6789 0123;</div>
+              <div>Email: luxe@example.com</div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-5 mb-sm-5 mb-md-5 mb-lg-0 animate__animated wow animate__backInUp">
+          <h1 class="cars1">
+            Ride Details / Distance
+          </h1>
+          <p>Complete the form below and we'll contact you as soon as possible</p>
+          <form action="">
+            <div class="row">
+              <div class="col-12">
+                <select class="form-control in" required>
+                  <option class="bg-secondary text-light ">Select a car</option>
+                  <option>Aston Martin DB11 AMR</option>
+                  <option>Bmw M 3 Coupe</option>
+                  <option>Bmw X2 M35i</option>
+                  <option>Bmw X2 M35i DriveX</option>
+                  <option>Farrai 364 GTB4 Daytone</option>
+                  <option>Farrai 365 Daytone</option>
+                  <option>Farrai GTB4 Daytone</option>
+                  <option>Ford F-150 raptor</option>
+                  <option>Lamborghini Huracan</option>
+                  <option>Marcedes G Class</option>
+                  <option>Porche Carrera</option>
+                  <option>Range Rover 7</option>
+                  <option>Porche Taycan Sport</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <input type="text" class="in" placeholder="Pick up location">
+              </div>
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-6">
+                    <select class="form-control in" required>
+                      <option class="bg-secondary text-light ">Select time</option>
+                      <option>00.00.00</option>
+                      <option>00.30.00</option>
+                      <option>01.00.00</option>
+                      <option>01.30.00</option>
+                      <option>02.00.00</option>
+                      <option>02.30.00</option>
+                      <option>03.00.00</option>
+                      <option>03.30.00</option>
+                      <option>04.00.00</option>
+                      <option>04.30.00</option>
+                      <option>05.00.00</option>
+                      <option>05.30.00</option>
+                      <option>06.00.00</option>
+                      <option>06.30.00</option>
+                      <option>07.00.00</option>
+                      <option>07.30.00</option>
+                      <option>08.00.00</option>
+                      <option>08.30.00</option>
+                      <option>09.00.00</option>
+                      <option>09.30.00</option>
+                      <option>10.00.00</option>
+                      <option>10.30.00</option>
+                      <option>11.00.00</option>
+                      <option>11.30.00</option>
+                      <option>12.00.00</option>
+                    </select>
+                  </div>
+                  <div class="col-6">
+                    <input type="datetime-local" class="ins">
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <input type="text" class="in" placeholder="Pick up location">
+              </div>
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-6">
+                    <select class="form-control in" required>
+                      <option class="bg-secondary text-light ">Select time</option>
+                      <option>00.00.00</option>
+                      <option>00.30.00</option>
+                      <option>01.00.00</option>
+                      <option>01.30.00</option>
+                      <option>02.00.00</option>
+                      <option>02.30.00</option>
+                      <option>03.00.00</option>
+                      <option>03.30.00</option>
+                      <option>04.00.00</option>
+                      <option>04.30.00</option>
+                      <option>05.00.00</option>
+                      <option>05.30.00</option>
+                      <option>06.00.00</option>
+                      <option>06.30.00</option>
+                      <option>07.00.00</option>
+                      <option>07.30.00</option>
+                      <option>08.00.00</option>
+                      <option>08.30.00</option>
+                      <option>09.00.00</option>
+                      <option>09.30.00</option>
+                      <option>10.00.00</option>
+                      <option>10.30.00</option>
+                      <option>11.00.00</option>
+                      <option>11.30.00</option>
+                      <option>12.00.00</option>
+                    </select>
+                  </div>
+                  <div class="col-6">
+                    <input type="datetime-local" class="ins">
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <a href="" class="nav-link btn10">SEND</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="containers">
+  </div>
+
+  <div class="footer">
+    <div class="car car1">
+      <div class="car-body tairs">
+        <img src="https://hasinhayder.github.io/CSS3-Keyframe-Transition/img/car.png" alt="" />
+      </div>
+      <div class="tair1 tair">
+        <img src="https://hasinhayder.github.io/CSS3-Keyframe-Transition/img/tyre.png" alt="" />
+      </div>
+      <div class="tair2 tair">
+        <img src="https://hasinhayder.github.io/CSS3-Keyframe-Transition/img/tyre.png" alt="" />
+      </div>
+    </div>
+    <img src="img/logo2.png" alt="">
+  </div>
+
+  <section class="number2">
+    <div class="container-fluid maxi">
+      <div class="row">
+        <div
+          class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-4 mb-sm-4 mb-md-4 mb-lg-0 animate__animated wow animate__bounceInLeft">
+          <a href="" class="main-up"><img src="img/img-6.jpg" alt="" class="img-fluid w-100 up-img1"></a>
+        </div>
+        <div
+          class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-4 mb-sm-4 mb-md-4 mb-lg-0 animate__animated wow animate__bounceInDown">
+          <a href="" class="main-up"><img src="img/img-7.jpg" alt="" class="img-fluid w-100 up-img1"></a>
+        </div>
+        <div
+          class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-4 mb-sm-4 mb-md-4 mb-lg-0 animate__animated wow animate__bounceInRight">
+          <a href="" class="main-up"><img src="img/img-8.jpg" alt="" class="img-fluid w-100 up-img1"></a>
+        </div>
+      </div>
+      <div class="row mt-0 mt-sm-0 mt-md-0 mt-lg-4">
+        <div
+          class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-4 mb-sm-4 mb-md-4 mb-lg-0 animate__animated wow animate__bounceInLeft">
+          <a href="" class="main-up"><img src="img/img-9.jpg" alt="" class="img-fluid w-100 up-img1"></a>
+        </div>
+        <div
+          class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-4 mb-sm-4 mb-md-4 mb-lg-0 animate__animated wow animate__bounceInDown">
+          <a href="" class="main-up"><img src="img/img-10.jpg" alt="" class="img-fluid w-100 up-img"></a>
+        </div>
+        <div
+          class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-4 mb-sm-4 mb-md-4 mb-lg-0 animate__animated wow animate__bounceInRight">
+          <a href="" class="main-up"><img src="img/img-11.jpg" alt="" class="img-fluid w-100 up-img1"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="number2">
+    <div class="container-fluid maxi">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-5 mb-sm-5 mb-md-5 mb-lg-0">
+          <h1 class="cars">Get 15% Off Your Rental! <br>
+            Choose Your Model</h1>
+          <h6 class="car2">ONLY THE BEST</h6>
+          <p class="mt-4 mb-4 sus">Amet tellus cras adipiscing enim eu turpis egestas pretium. Sed sed risus <br> donec
+            massa. Sit amet tellus cras adipiscing. Massa ultricies mi quis hendrerit <br> dolor magna eget est lor.</p>
+          <div class="col-4">
+            <a href="" class="nav-link btn10">VIEW MORE</a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-5 mb-sm-5 mb-md-5 mb-lg-0">
+          <div class="row animate__animated wow animate__rotateInDownRight">
+            <div class="col-12 col-sm-6 col-md-6 d-flex justify-content-center">
+              <div class="row d-flex justify-content-center">
+                <div class="circle_percent col-12" data-percent="62">
+                  <div class="circle_inner">
+                    <div class="round_per"></div>
+                  </div>
+                </div>
+                <h6 class="col-12 text-center mt-4">Europe Based</h6>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 d-flex justify-content-center mt-5 mt-sm-0 mt-md-0">
+              <div class="row">
+                <div class="row d-flex justify-content-center">
+                  <div class="circle_percent col-12" data-percent="33">
+                    <div class="circle_inner">
+                      <div class="round_per"></div>
+                    </div>
+                  </div>
+                  <h6 class="col-12 text-center mt-4">Wester Area</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="number2">
+    <div class="container-fluid maxi">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Rolss Royas
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="row d-flex align-items-center">
+                <div class="col-12 col-sm-12 col-md-6">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+
+                  <p class="contant mt-4">Rolls Royce Overview Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco <br> laboris nisi ut aliquip ex ea commodo laborum consequat. Duis aute irure dolor in <br>
+                    reprehenderit in v</p>
+
+                  <div class="rate"><sup>$</sup>180<p class="d-inline">/hour</p>
+                  </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-6">
+                  <img src="img/img12.jpg" alt="" class="img-fluid w-75 float-start float-sm-start float-md-end">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Porche Carrera
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="row d-flex align-items-center">
+                <div class="col-12 col-sm-12 col-md-6">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+
+                  <p class="contant mt-4">Rolls Royce Overview Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco <br> laboris nisi ut aliquip ex ea commodo laborum consequat. Duis aute irure dolor in <br>
+                    reprehenderit in v</p>
+
+                  <div class="rate"><sup>$</sup>180<p class="d-inline">/hour</p>
+                  </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-6">
+                  <img src="img/img13.jpg" alt="" class="img-fluid w-75 float-start float-sm-start float-md-end">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Bmw X2 M35i
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="row d-flex align-items-center">
+                <div class="col-12 col-sm-12 col-md-6">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+
+                  <p class="contant mt-4">Rolls Royce Overview Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco <br> laboris nisi ut aliquip ex ea commodo laborum consequat. Duis aute irure dolor in <br>
+                    reprehenderit in v</p>
+
+                  <div class="rate"><sup>$</sup>180<p class="d-inline">/hour</p>
+                  </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-6">
+                  <img src="img/img14.jpg" alt="" class="img-fluid w-75 float-start float-sm-start float-md-end">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Lamborghini Huracan
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="row d-flex align-items-center">
+                <div class="col-12 col-sm-12 col-md-6">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+
+                  <p class="contant mt-4">Rolls Royce Overview Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco <br> laboris nisi ut aliquip ex ea commodo laborum consequat. Duis aute irure dolor in <br>
+                    reprehenderit in v</p>
+
+                  <div class="rate"><sup>$</sup>180<p class="d-inline">/hour</p>
+                  </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-6">
+                  <img src="img/img15.jpg" alt="" class="img-fluid w-75 float-start float-sm-start float-md-end">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="number2">
+    <div class="container-fluid maxi">
+      <div class="row p-0">
+        <div class="col-12 p-0 position-relative w-100 overflow-hidden">
+          <img src="img/img16.jpg" alt="" class="conts img-fluid p-3">
+          <div class="main-svg">
+            <div class="svg animate__animated wow animate__heartBeat">
+              <a href="" data-bs-target="#modalse2" data-bs-toggle="modal"><svg class="qodef-svg--play"
+                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 280 280" style="enable-background:new 0 0 280 280;" xml:space="preserve">
+                  <defs>
+                    <radialGradient cy="0%" fx="50%" fy="0%" r="50%" gradientTransform="matrix(0 1 -1.5 0 .5 -.5)"
+                      id="circle-grey-big-radial">
+                      <stop stop-color="#FFF" offset="0%"></stop>
+                      <stop stop-color="#FFF" stop-opacity="0" offset="100%"></stop>
+                    </radialGradient>
+                    <circle id="circle-grey-big" cx="140" cy="140" r="139"></circle>
+                  </defs>
+                  <g fill="none" fill-rule="evenodd">
+                    <use stroke-opacity="0.3" stroke="#d9d6ce" xlink:href="#circle-grey-big"></use>
+                    <use stroke-opacity="1" stroke="url(#circle-grey-big-radial)" xlink:href="#circle-grey-big"></use>
+                  </g>
+                </svg></a>
+            </div>
+
+            <div class="modal" tabindex="-1" id="modalse2">
+              <div class="modal-dialog">
+                <div class="modal-content bg-dark text-light maic">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Rolls Royas Facility</h5>
+                    <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <iframe width="100%" src="https://www.youtube.com/embed/V4O1QiaX_D0?si=2IMUpfpAFksdDioY"
+                      title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="number2">
+    <div class="container-fluid maxi">
+      <h1 class="cars">Our Proffesional Approach</h1>
+      <h6 class="car2">FINEST CAR RENTA</h6>
+      <hr class="mt-5 mb-5">
+
+      <div class="row">
+        <div class="col-2 d-none d-sm-none d-md-block"></div>
+        <div class="col-12 col-sm-12 col-md-5 bord">
+          <div class="cassic ms-1 ms-sm-1 ms-md-3 ms-lg-5">
+            <h4 class="boxs">All-Round Accessible</h4>
+            <div class="mt-2">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checkeds"></span>
+            </div>
+            <p class="pares mt-4">Facilisi morbi tempus iaculis urna id volutpat lacus la do <br> oretnone imp ediet dui
+              accumsan sit amet nulla facilisi sed <br> morbi temp us ha.</p>
+            <h6 class="car2">MARCUS ERICKSE NEW YORK</h6>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-5 mt-5 mt-sm-5 mt-md-0 bord">
+          <div class="cassic ms-1 ms-sm-1 ms-md-3 ms-lg-5">
+            <h4 class="boxs">Client Oriented</h4>
+            <div class="mt-2">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checkeds"></span>
+            </div>
+            <p class="pares mt-4">Dictum non consectetur a erat nam at lectus ur nadus <br> odeno malesuada fames ac
+              turpis egest as sed ten pus <br> urnar e phai etra. Elit ut aliquam purus. Sit amet iame sitod <br> amet
+              nisl susc pit a.</p>
+            <h6 class="car2">TIAGE DENEL SENLIS</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="number2">
+    <div class="container-fluid maxi">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mt-3 mt-sm-0">
+          <div class="row align-items-center">
+            <div class="col-4">
+              <img src="img/img17.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-8">
+              <h5 class="names">Aysha Valenc</h5>
+              <div class="wraping">
+                <i class="bi bi-phone"></i>
+                <p class="d-inline">+1234 5678 901</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mt-3 mt-sm-0">
+          <div class="row align-items-center">
+            <div class="col-4">
+              <img src="img/img-18.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-8">
+              <h5 class="names">Aysha Valenc</h5>
+              <div class="wraping">
+                <i class="bi bi-phone"></i>
+                <p class="d-inline">+1234 5678 901</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mt-3 mt-sm-3 mt-md-3 mt-lg-0">
+          <div class="row align-items-center">
+            <div class="col-4">
+              <img src="img/img19.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-8">
+              <h5 class="names">Aysha Valenc</h5>
+              <div class="wraping">
+                <i class="bi bi-phone"></i>
+                <p class="d-inline">+1234 5678 901</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="number2">
+    <div class="container-fluid maxi mb-5">
+      <div class="sport-car">
+        <div class="sport-car-cantant">
+          <h2>Get 15% Off Your Rental!
+            Choose Your Model</h2>
+          <img src="img/img21.png" alt="" class="bg-head">
+          <a href="" class="nav-link d-inline">CALL CENTER: +1234 5678 901</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="number2">
+    <div class="container-fluid maxi">
+      <h1 class="cars">Frequently Asked Questions</h1>
+      <h6 class="car2">LIST OF ANSWERS</h6>
+      <hr class="mt-5 mb-5">
+      <div class="row">
+        <div class="col-3 d-none d-sm-none d-md-block"></div>
+        <div class="col-12 col-sm-12 col-md-9">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne">
+                  Do You Rent To International Visitors?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <strong>
+                    Viverra accumsan in nisl scelerisque nisi. At risus viverra adipiscing at in tellus. Integer neq u
+                    aliquam vestibulum en morbi blandit cursi us risus ultrices ataugue ut lectus arcu sed
+                    done.</strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo">
+                  Do You Have Insurance?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <strong>Viverra accumsan in nisl scelerisque nisi. At risus viverra adipiscing at in tellus. Integer
+                    neq u aliquam vestibulum en morbi blandit cursi us risus ultrices ataugue ut lectus arcu sed
+                    done.</strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  If I Rent A Vehicle Can I Choose The Chauffeur?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <strong>Viverra accumsan in nisl scelerisque nisi. At risus viverra adipiscing at in tellus. Integer
+                    neq u aliquam vestibulum en morbi blandit cursi us risus ultrices ataugue ut lectus arcu sed
+                    done.</strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  Do Your Drivers Have Certificates?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingFour">
+                <div class="accordion-body">
+                  <strong>Viverra accumsan in nisl scelerisque nisi. At risus viverra adipiscing at in tellus. Integer
+                    neq u aliquam vestibulum en morbi blandit cursi us risus ultrices ataugue ut lectus arcu sed
+                    done.</strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseFive">
+                  How Old Do You Have To Be To Rent A Car?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingFive">
+                <div class="accordion-body">
+                  <strong>Viverra accumsan in nisl scelerisque nisi. At risus viverra adipiscing at in tellus. Integer
+                    neq u aliquam vestibulum en morbi blandit cursi us risus ultrices ataugue ut lectus arcu sed
+                    done.</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="number2">
+    <div class="container-fluid maxi">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 animate__animated wow animate__rotateInDownLeft">
+          <div class="course-col">
+            <img src="img/img22.jpg" alt="img is not supported" class="img-fluid w-100 ">
+            <div class="layer">
+              <div class="h3">
+                <h4>Smooth Rental</h4>
+                <p>
+                  Neque vitae tempus quai maqum pellentes qu nece orci nulla pellen esqued ai ignissim enimoses am te.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mt-4 mt-sm-4 mt-md-0 mt-lg-0 mt-xl-0 animate__animated wow animate__rotateInDownLeft">
+          <div class="course-col">
+            <img src="img/img23.jpg" alt="img is not supported" class="img-fluid w-100 ">
+            <div class="layer">
+              <div class="h3">
+                <h4>Smooth Transport</h4>
+                <p>
+                  Neque vitae tempus quai maqum pellentes qu nece orci nulla pellen esqued ai ignissim enimoses am te.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mt-4 mt-sm-4 mt-md-4 mt-lg-4 mt-xl-0 animate__animated wow animate__rotateInDownRight">
+          <div class="course-col">
+            <img src="img/img24.jpg" alt="img is not supported" class="img-fluid w-100 ">
+            <div class="layer">
+              <div class="h3">
+                <h4>Business Transport</h4>
+                <p>
+                  Neque vitae tempus quai maqum pellentes qu nece orci nulla pellen esqued ai ignissim enimoses am te.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mt-4 mt-sm-4 mt-md-4 mt-lg-4 mt-xl-0 animate__animated wow animate__rotateInDownRight">
+          <div class="course-col">
+            <img src="img/img25.jpg" alt="img is not supported" class="img-fluid w-100 ">
+            <div class="layer">
+              <div class="h3">
+                <h4>Best Chauffeurs</h4>
+                <p>
+                  Neque vitae tempus quai maqum pellentes qu nece orci nulla pellen esqued ai ignissim enimoses am te.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="number2">
+    <div class="container-fluid maxi">
+      <div class="row">
+        <div
+          class="col-12 col-sm-12 col-md-4 col-lg-4 d-flex align-items-center justify-content-start justify-content-sm-start justify-content-md-center">
+          <img src="img/img26.png" alt="" class="img-fluid locations">
+          <div class="ms-4">
+            <h5 class="d-inline blaster">11 Rue de la Mutualit <br>
+              92400 Paris</h5>
+          </div>
+        </div>
+        <div
+          class="col-12 col-sm-12 col-md-4 col-lg-4 d-flex align-items-center justify-content-start justify-content-sm-start justify-content-md-center mt-5 mt-sm-5 mt-md-0">
+          <img src="img/img-5.png" alt="" class="img-fluid locations2">
+          <div class="ms-4">
+            <h5 class="d-inline blaster">11 Rue de la Mutualit <br>
+              92400 Paris</h5>
+          </div>
+        </div>
+        <div
+          class="col-12 col-sm-12 col-md-4 col-lg-4 d-flex align-items-center justify-content-start justify-content-sm-start justify-content-md-center mt-5 mt-sm-5 mt-md-0">
+          <img src="img/img27.png" alt="" class="img-fluid locations2">
+          <div class="ms-4">
+            <h5 class="d-inline blaster">11 Rue de la Mutualit <br>
+              92400 Paris</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="number2">
+    <div class="container-fluid p-0">
+      <hr>
+    </div>
+  </section>
+
+  <section class="number2">
+    <div class="container-fluid maxi">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6">
+          <img src="img/img28.png" alt="" class="img-fluid extra-logo">
+          <p class="mt-4 pares">Justo odio dignissimos ducimus qui blanditiis voluptatum <br> deleniti corrupti quos
+            dolores et quas molestias sint <br> occaecati id est laborumesa etdolorum.</p>
+          <h6 class="car2">CALL CENTAR: +397 256 38 29</h6>
+        </div>
+        <div class="col-12 col-sm-12 col-md-3 mt-5 mt-sm-5 mt-md-0">
+          <div class="quick">Quick links</div>
+          <h6 class="mt-4 works">HOW WE WORK</h6>
+          <h6 class="mt-3 works">FAQ</h6>
+          <h6 class="mt-3 works">SERVICES</h6>
+          <h6 class="mt-3 works">CONTACT</h6>
+        </div>
+        <div class="col-12 col-sm-12 col-md-3 mt-5 mt-sm-5 mt-md-0">
+          <div class="quick">Our Services</div>
+          <h6 class="mt-4 works">CORPORATE TRAVELS</h6>
+          <h6 class="mt-3 works">SPECIAL EVENTS</h6>
+          <h6 class="mt-3 works">AIRPORT TRANSPORT</h6>
+          <h6 class="mt-3 works">WEDDING LIMOUSINE</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="number2">
+    <div class="container-fluid p-0">
+      <hr>
+    </div>
+    <p class="ps-2 ps-sm-4">© 2023 Me Interactive, All Rights Reserved</p>
+  </section>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
